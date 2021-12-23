@@ -22,6 +22,7 @@ let package = Package(
             name: "CDecNumber",
             dependencies: [],
             exclude: [
+                // These are included in the source and shouldn't be compiled separately
                 "decBasic.inc",
                 "decCommon.inc",
             ]),
